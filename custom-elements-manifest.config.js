@@ -1,5 +1,4 @@
 import { generateCustomData } from 'cem-plugin-vs-code-custom-data-generator';
-import { jsdocExamplePlugin } from 'cem-plugin-jsdoc-example';
 
 export default {
   globs: ['src/components/*.ts'],
@@ -11,6 +10,5 @@ export default {
       htmlFileName: 'vscode.html-custom-elements.json',
       cssFileName: '',
     }),
-    jsdocExamplePlugin(),
   ],
 };
